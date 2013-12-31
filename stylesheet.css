@@ -1,0 +1,90 @@
+html { 
+  background: url("http://www.psdgraphics.com/file/light-wooden-background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#mainContent {
+  width: 600px;
+  height: 800px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 0 auto ;
+
+
+
+}
+
+#mainHeading {
+  text-align: center;
+  color: #E2DFDF;
+
+
+}
+#mainContent ul {
+    list-style: none;
+}
+#mainContent li {
+  height: 20px;
+  border-bottom: 1px solid #E2DFDF;
+}
+
+#mainContent li > div {
+    display: inline-block;
+} 
+
+#mainContent li:hover:after {
+          content: " click to edit";
+          display: inline-block;
+          font-size: 9px;
+          background-color: red;
+
+}
+
+
+
+#tasks {
+    max-height: 300px;
+    font-size: 25px;
+    color: rgb(240, 240, 71);
+   		
+}
+#tasks ul {
+	 list-style: none;
+     clear: both;
+}
+#newTask{
+    width:250px;
+    height:25px;
+    border: 1px solid grey;
+    float: left;
+}
+
+
+#inputarea {
+    float: left;
+     width: 500px;
+    height: 90px;
+    background-color: rgb(240, 240, 71)	;
+    border: 1px solid orange;
+    border-radius: 5px;
+    
+}
+#inputbox{
+    padding:25px 45px;
+}
+#submitButton {
+    margin-left:290px;
+    width: 100px;
+    height:30px;
+    border-radius: 4px;
+    color: white;
+    background-color:orange;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    opacity: 1;
+    
+}
